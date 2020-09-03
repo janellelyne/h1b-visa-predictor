@@ -10,4 +10,13 @@ Experimental Results and Analysis
    The results showed that the most predictive feature is the city where the job will be located. The other top three features were the salary, if the job was a full time position, and the job type. The top 4 features from the chiSqSelector were used in the model, which predicted the case status with an average accuracy of [insert] by the PR AUC. Further analysis of the features, with time permitting, could produce a better model, but overall, I am satisfied with the model’s performance based on the PR AUC metric.
 
 
+How To Run
 
+1. Download the H1B Visa Applications dataset from Kaggle. Save dataset as h1b_kaggle.csv.
+    https://www.kaggle.com/nsharan/h-1b-visa
+2. Run preprocess.py, model.py, and demo.py in order.
+
+Dependencies
+
+Python 2.7
+Pyspark 2.0 or greater
