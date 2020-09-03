@@ -18,5 +18,5 @@ How To Run
 
 Dependencies
 
-Python 2.7
+Python 2.7,
 Pyspark 2.0 or greater
